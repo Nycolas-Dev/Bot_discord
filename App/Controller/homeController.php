@@ -2,11 +2,7 @@
 
 namespace App\Controller;
 
-$db_name = getenv('DB_NAME');
-        $db_user = getenv('DB_USER');
-        $db_password = getenv('DB_PASSWORD');
-
-$page = '../../project_rush/views/page/home.phtml';    
+$page = '../../project_rush/views/page/home.html';    
 
 include '../../project_rush/views/template/global.phtml';
 

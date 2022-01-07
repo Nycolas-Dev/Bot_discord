@@ -1,4 +1,70 @@
 
+/*********************
+        VARIABLE
+**********************/
+
+:root {
+    /*Color*/
+    --red: red;
+    --blue: blue;
+    --green: green;
+;
+
+}
+
+
+                        /******************
+                                TITLE
+                        *******************/
+
+h1 {
+    color: var(--blue);
+}
+
+                        /******************
+                                HOMEPAGE
+                        *******************/
+.home {
+    all: unset;
+    display: grid;
+    grid-template-columns: repeat(1, 16em);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 0.5em;
+    grid-row-gap: 0.5em;
+    justify-content: center;
+    padding-top: 7em;
+    padding-bottom: 7em;
+    background-image: url('../assets/fond.jfif');
+}
+
+section {
+    min-height: 100vh; /* minus the height of the footer */
+}
+
+body{
+    margin:0;
+    padding-inline-end:0;
+  }
+
+.img1 { grid-area: 1 / 1 / 2 / 2; }
+.img2 { grid-area: 4 / 1 / 5 / 2; }
+.img3 { grid-area: 3 / 1 / 4 / 2; }
+.img4 { grid-area: 7 / 1 / 8 / 2; }
+.img5 { grid-area: 8 / 1 / 9 / 2; }
+.img6 { grid-area: 5 / 1 / 6 / 2; }
+.img7 { grid-area: 2 / 1 / 3 / 2; }
+.img8 { grid-area: 6 / 1 / 7 / 2; }
+
+.home img, .div9{
+    width: 16em;
+    height: 8em;
+}
+
+
+                        /******************
+                                MAIN
+                        *******************/
+
 /* LISTE */
 
 ul {
@@ -9,6 +75,10 @@ ul {
 
 li {
     margin-bottom:8px;
+}
+
+a {
+    text-decoration:none;
 }
 
 /* GRID */
@@ -34,4 +104,55 @@ li {
 
 .grid-column4 {
     grid-column: 4 ;
+}
+
+
+            /*************************
+                    RESPONSIVE
+            *************************/
+
+/* MEDIA QUERIES */
+/* tablette */
+@media screen and (min-width:760px){
+
+    h1 {
+        color: var(--green);
+    }
+
+    .home {
+        grid-template-columns: repeat(2, 16em);
+        grid-template-rows: repeat(4, 1fr);
+    }
+    
+    .img1 { grid-area: 1 / 1 / 2 / 2; }
+    .img2 { grid-area: 3 / 2 / 4 / 3; }
+    .img3 { grid-area: 3 / 1 / 4 / 2; }
+    .img4 { grid-area: 1 / 2 / 2 / 3; }
+    .img5 { grid-area: 2 / 1 / 3 / 2; }
+    .img6 { grid-area: 4 / 2 / 5 / 3; }
+    .img7 { grid-area: 2 / 2 / 3 / 3; }
+    .img8 { grid-area: 4 / 1 / 5 / 2; }
+}
+
+/* desktop */
+@media screen and (min-width:1200px){
+
+    h1 {
+        color: var(--red);
+    }
+
+    .home {
+        grid-template-columns: repeat(3, 16em);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    
+    .img1 { grid-area: 1 / 1 / 2 / 2; }
+    .img2 { grid-area: 1 / 2 / 2 / 3; }
+    .img3 { grid-area: 1 / 3 / 2 / 4; }
+    .img4 { grid-area: 2 / 3 / 3 / 4; }
+    .img5 { grid-area: 3 / 3 / 4 / 4; }
+    .img6 { grid-area: 3 / 2 / 4 / 3; }
+    .img7 { grid-area: 3 / 1 / 4 / 2; }
+    .img8 { grid-area: 2 / 1 / 3 / 2; }
+
 }
