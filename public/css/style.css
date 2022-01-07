@@ -1,4 +1,6 @@
 
+/* LISTE */
+
 ul {
     list-style:none;
     margin-left:0;
@@ -8,6 +10,8 @@ ul {
 li {
     margin-bottom:8px;
 }
+
+/* GRID */
 
 .wrapper {
     display: grid;

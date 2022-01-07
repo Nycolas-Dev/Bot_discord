@@ -9,6 +9,11 @@ if (strpos($request, 'info/') !== false) {
     die;
 }
 
+if (strpos($request, 'info?') !== false) {
+    require_once '../App/Controller/infoController.php';
+    die;
+}
+
 switch ($request) {
     case '/' :
         require_once '../App/Controller/homeController.php';

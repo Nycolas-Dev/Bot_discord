@@ -1,10 +1,6 @@
 <?php
 
-
-
-// Load Config
 require_once '../vendor/autoload.php';
-require_once '../config/config.php';
 
 use App\Controller\DotEnv;
 

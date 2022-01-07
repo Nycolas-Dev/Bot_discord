@@ -41,6 +41,23 @@ class Player {
 
     }
 
+    public function getInfosPlayerRushById($idPlayer) {
+
+        $query = $this->bdd->prepare("  SELECT r.place, r.score, r.rush_id_rush, ru.name
+                                        FROM result r
+                                        INNER JOIN rush ru ON r.rush_id_rush = ru.id_rush
+                                        WHERE r.players_id_discord = ".$idPlayer."");
+                                
+        $query->execute();
+        
+        $infosPlayerRush = $query->fetchAll(\PDO::FETCH_ASSOC);
+        
+        $infosPlayerRush = json_encode($infosPlayerRush);
+
+        return $infosPlayerRush;
+
+    }
+
 }
 
 ?>

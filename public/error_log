@@ -2646,3 +2646,294 @@ Stack trace:
 #4 {main}
   thrown in /home/zabv3852/public_html/project_rush/App/Models/Player.php on line 11
 [06-Jan-2022 23:15:37 UTC] PHP Parse error:  syntax error, unexpected token ";" in /home/zabv3852/public_html/project_rush/App/Models/Player.php on line 8
+[07-Jan-2022 08:59:40 UTC] PHP Warning:  Undefined array key "pseudo" in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 5
+[07-Jan-2022 09:00:32 UTC] PHP Warning:  Undefined array key "pseudo" in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 5
+[07-Jan-2022 09:00:36 UTC] PHP Warning:  Undefined array key "pseudo" in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 5
+[07-Jan-2022 09:00:40 UTC] PHP Warning:  Undefined array key "pseudo" in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 5
+[07-Jan-2022 09:01:04 UTC] PHP Warning:  Undefined array key "pseudo" in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 5
+[07-Jan-2022 09:01:06 UTC] PHP Warning:  Undefined array key "pseudo" in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 5
+[07-Jan-2022 09:02:43 UTC] PHP Warning:  Array to string conversion in /home/zabv3852/public_html/project_rush/App/Controller/infoController.php on line 14
+[07-Jan-2022 09:02:43 UTC] PHP Warning:  Only the first byte will be assigned to the string offset in /home/zabv3852/public_html/project_rush/App/Controller/infoController.php on line 14
+[07-Jan-2022 09:02:58 UTC] PHP Warning:  Array to string conversion in /home/zabv3852/public_html/project_rush/App/Controller/infoController.php on line 14
+[07-Jan-2022 09:02:58 UTC] PHP Warning:  Only the first byte will be assigned to the string offset in /home/zabv3852/public_html/project_rush/App/Controller/infoController.php on line 14
+[07-Jan-2022 09:02:58 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/zabv3852/public_html/project_rush/views/page/info.phtml:5
+Stack trace:
+#0 /home/zabv3852/public_html/project_rush/views/template/global.phtml(20): include()
+#1 /home/zabv3852/public_html/project_rush/App/Controller/infoController.php(23): include('/home/zabv3852/...')
+#2 /home/zabv3852/public_html/project_rush/routes/routes.php(8): require_once('/home/zabv3852/...')
+#3 /home/zabv3852/public_html/project_rush/public/index.php(13): require_once('/home/zabv3852/...')
+#4 {main}
+  thrown in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 5
+[07-Jan-2022 09:03:07 UTC] PHP Warning:  Array to string conversion in /home/zabv3852/public_html/project_rush/App/Controller/infoController.php on line 14
+[07-Jan-2022 09:03:07 UTC] PHP Warning:  Only the first byte will be assigned to the string offset in /home/zabv3852/public_html/project_rush/App/Controller/infoController.php on line 14
+[07-Jan-2022 09:03:40 UTC] PHP Warning:  Array to string conversion in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 5
+[07-Jan-2022 09:08:24 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 11
+[07-Jan-2022 09:08:52 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 11
+[07-Jan-2022 09:08:52 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 11
+[07-Jan-2022 09:08:52 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 11
+[07-Jan-2022 09:08:53 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 11
+[07-Jan-2022 09:08:53 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 11
+[07-Jan-2022 09:09:04 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 11
+[07-Jan-2022 09:09:04 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 11
+[07-Jan-2022 09:09:05 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 11
+[07-Jan-2022 09:09:05 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 11
+[07-Jan-2022 09:09:12 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 11
+[07-Jan-2022 09:09:12 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 11
+[07-Jan-2022 09:09:13 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 11
+[07-Jan-2022 09:09:13 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 11
+[07-Jan-2022 09:09:13 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 11
+[07-Jan-2022 09:09:20 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 11
+[07-Jan-2022 09:09:22 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 11
+[07-Jan-2022 09:30:51 UTC] PHP Warning:  require_once(../config/config.php): Failed to open stream: No such file or directory in /home/zabv3852/public_html/project_rush/public/index.php on line 7
+[07-Jan-2022 09:30:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../config/config.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/zabv3852/public_html/project_rush/public/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zabv3852/public_html/project_rush/public/index.php on line 7
+[07-Jan-2022 09:31:05 UTC] PHP Warning:  require_once(../config/config.php): Failed to open stream: No such file or directory in /home/zabv3852/public_html/project_rush/public/index.php on line 7
+[07-Jan-2022 09:31:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../config/config.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/zabv3852/public_html/project_rush/public/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zabv3852/public_html/project_rush/public/index.php on line 7
+[07-Jan-2022 09:31:07 UTC] PHP Warning:  require_once(../config/config.php): Failed to open stream: No such file or directory in /home/zabv3852/public_html/project_rush/public/index.php on line 7
+[07-Jan-2022 09:31:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../config/config.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/zabv3852/public_html/project_rush/public/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zabv3852/public_html/project_rush/public/index.php on line 7
+[07-Jan-2022 09:31:24 UTC] PHP Warning:  require_once(../config/config.php): Failed to open stream: No such file or directory in /home/zabv3852/public_html/project_rush/public/index.php on line 7
+[07-Jan-2022 09:31:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../config/config.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/zabv3852/public_html/project_rush/public/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zabv3852/public_html/project_rush/public/index.php on line 7
+[07-Jan-2022 09:31:30 UTC] PHP Warning:  require_once(../config/config.php): Failed to open stream: No such file or directory in /home/zabv3852/public_html/project_rush/public/index.php on line 7
+[07-Jan-2022 09:31:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../config/config.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/zabv3852/public_html/project_rush/public/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zabv3852/public_html/project_rush/public/index.php on line 7
+[07-Jan-2022 09:31:30 UTC] PHP Warning:  require_once(../config/config.php): Failed to open stream: No such file or directory in /home/zabv3852/public_html/project_rush/public/index.php on line 7
+[07-Jan-2022 09:31:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../config/config.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/zabv3852/public_html/project_rush/public/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zabv3852/public_html/project_rush/public/index.php on line 7
+[07-Jan-2022 09:31:33 UTC] PHP Warning:  require_once(../config/config.php): Failed to open stream: No such file or directory in /home/zabv3852/public_html/project_rush/public/index.php on line 7
+[07-Jan-2022 09:31:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../config/config.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/zabv3852/public_html/project_rush/public/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/zabv3852/public_html/project_rush/public/index.php on line 7
+[07-Jan-2022 09:32:37 UTC] PHP Parse error:  syntax error, unexpected variable "$key", expecting ")" in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 12
+[07-Jan-2022 09:40:20 UTC] PHP Warning:  require_once(../views/404.php): Failed to open stream: No such file or directory in /home/zabv3852/public_html/project_rush/routes/routes.php on line 27
+[07-Jan-2022 09:40:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../views/404.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/zabv3852/public_html/project_rush/routes/routes.php:27
+Stack trace:
+#0 /home/zabv3852/public_html/project_rush/public/index.php(9): require_once()
+#1 {main}
+  thrown in /home/zabv3852/public_html/project_rush/routes/routes.php on line 27
+[07-Jan-2022 09:45:39 UTC] PHP Warning:  require_once(../views/404.php): Failed to open stream: No such file or directory in /home/zabv3852/public_html/project_rush/routes/routes.php on line 27
+[07-Jan-2022 09:45:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../views/404.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/zabv3852/public_html/project_rush/routes/routes.php:27
+Stack trace:
+#0 /home/zabv3852/public_html/project_rush/public/index.php(9): require_once()
+#1 {main}
+  thrown in /home/zabv3852/public_html/project_rush/routes/routes.php on line 27
+[07-Jan-2022 09:46:42 UTC] PHP Warning:  require_once(../views/404.php): Failed to open stream: No such file or directory in /home/zabv3852/public_html/project_rush/routes/routes.php on line 27
+[07-Jan-2022 09:46:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../views/404.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/zabv3852/public_html/project_rush/routes/routes.php:27
+Stack trace:
+#0 /home/zabv3852/public_html/project_rush/public/index.php(9): require_once()
+#1 {main}
+  thrown in /home/zabv3852/public_html/project_rush/routes/routes.php on line 27
+[07-Jan-2022 09:54:13 UTC] PHP Warning:  require_once(../views/404.php): Failed to open stream: No such file or directory in /home/zabv3852/public_html/project_rush/routes/routes.php on line 27
+[07-Jan-2022 09:54:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../views/404.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/zabv3852/public_html/project_rush/routes/routes.php:27
+Stack trace:
+#0 /home/zabv3852/public_html/project_rush/public/index.php(9): require_once()
+#1 {main}
+  thrown in /home/zabv3852/public_html/project_rush/routes/routes.php on line 27
+[07-Jan-2022 09:55:58 UTC] PHP Warning:  require_once(../views/404.php): Failed to open stream: No such file or directory in /home/zabv3852/public_html/project_rush/routes/routes.php on line 27
+[07-Jan-2022 09:55:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../views/404.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/zabv3852/public_html/project_rush/routes/routes.php:27
+Stack trace:
+#0 /home/zabv3852/public_html/project_rush/public/index.php(9): require_once()
+#1 {main}
+  thrown in /home/zabv3852/public_html/project_rush/routes/routes.php on line 27
+[07-Jan-2022 09:56:52 UTC] PHP Warning:  require_once(../views/404.php): Failed to open stream: No such file or directory in /home/zabv3852/public_html/project_rush/routes/routes.php on line 27
+[07-Jan-2022 09:56:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../views/404.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/zabv3852/public_html/project_rush/routes/routes.php:27
+Stack trace:
+#0 /home/zabv3852/public_html/project_rush/public/index.php(9): require_once()
+#1 {main}
+  thrown in /home/zabv3852/public_html/project_rush/routes/routes.php on line 27
+[07-Jan-2022 09:59:18 UTC] PHP Warning:  require_once(../views/404.php): Failed to open stream: No such file or directory in /home/zabv3852/public_html/project_rush/routes/routes.php on line 27
+[07-Jan-2022 09:59:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../views/404.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/zabv3852/public_html/project_rush/routes/routes.php:27
+Stack trace:
+#0 /home/zabv3852/public_html/project_rush/public/index.php(9): require_once()
+#1 {main}
+  thrown in /home/zabv3852/public_html/project_rush/routes/routes.php on line 27
+[07-Jan-2022 09:59:44 UTC] PHP Warning:  require_once(../views/404.php): Failed to open stream: No such file or directory in /home/zabv3852/public_html/project_rush/routes/routes.php on line 27
+[07-Jan-2022 09:59:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../views/404.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/zabv3852/public_html/project_rush/routes/routes.php:27
+Stack trace:
+#0 /home/zabv3852/public_html/project_rush/public/index.php(9): require_once()
+#1 {main}
+  thrown in /home/zabv3852/public_html/project_rush/routes/routes.php on line 27
+[07-Jan-2022 10:02:03 UTC] PHP Warning:  require_once(../views/404.php): Failed to open stream: No such file or directory in /home/zabv3852/public_html/project_rush/routes/routes.php on line 27
+[07-Jan-2022 10:02:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../views/404.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/zabv3852/public_html/project_rush/routes/routes.php:27
+Stack trace:
+#0 /home/zabv3852/public_html/project_rush/public/index.php(9): require_once()
+#1 {main}
+  thrown in /home/zabv3852/public_html/project_rush/routes/routes.php on line 27
+[07-Jan-2022 10:03:53 UTC] PHP Warning:  require_once(../views/404.php): Failed to open stream: No such file or directory in /home/zabv3852/public_html/project_rush/routes/routes.php on line 27
+[07-Jan-2022 10:03:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../views/404.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/zabv3852/public_html/project_rush/routes/routes.php:27
+Stack trace:
+#0 /home/zabv3852/public_html/project_rush/public/index.php(9): require_once()
+#1 {main}
+  thrown in /home/zabv3852/public_html/project_rush/routes/routes.php on line 27
+[07-Jan-2022 10:05:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '/info?player-search=' at line 3 in /home/zabv3852/public_html/project_rush/App/Models/Player.php:34
+Stack trace:
+#0 /home/zabv3852/public_html/project_rush/App/Models/Player.php(34): PDOStatement->execute()
+#1 /home/zabv3852/public_html/project_rush/App/Controller/infoController.php(10): App\Models\Player->getInfosPlayerById()
+#2 /home/zabv3852/public_html/project_rush/routes/routes.php(14): require_once('/home/zabv3852/...')
+#3 /home/zabv3852/public_html/project_rush/public/index.php(9): require_once('/home/zabv3852/...')
+#4 {main}
+  thrown in /home/zabv3852/public_html/project_rush/App/Models/Player.php on line 34
+[07-Jan-2022 10:05:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '/info?player-search=test' at line 3 in /home/zabv3852/public_html/project_rush/App/Models/Player.php:34
+Stack trace:
+#0 /home/zabv3852/public_html/project_rush/App/Models/Player.php(34): PDOStatement->execute()
+#1 /home/zabv3852/public_html/project_rush/App/Controller/infoController.php(10): App\Models\Player->getInfosPlayerById()
+#2 /home/zabv3852/public_html/project_rush/routes/routes.php(14): require_once('/home/zabv3852/...')
+#3 /home/zabv3852/public_html/project_rush/public/index.php(9): require_once('/home/zabv3852/...')
+#4 {main}
+  thrown in /home/zabv3852/public_html/project_rush/App/Models/Player.php on line 34
+[07-Jan-2022 10:05:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '/info?player-search=test' at line 3 in /home/zabv3852/public_html/project_rush/App/Models/Player.php:34
+Stack trace:
+#0 /home/zabv3852/public_html/project_rush/App/Models/Player.php(34): PDOStatement->execute()
+#1 /home/zabv3852/public_html/project_rush/App/Controller/infoController.php(10): App\Models\Player->getInfosPlayerById()
+#2 /home/zabv3852/public_html/project_rush/routes/routes.php(14): require_once('/home/zabv3852/...')
+#3 /home/zabv3852/public_html/project_rush/public/index.php(9): require_once('/home/zabv3852/...')
+#4 {main}
+  thrown in /home/zabv3852/public_html/project_rush/App/Models/Player.php on line 34
+[07-Jan-2022 10:08:38 UTC] PHP Warning:  Undefined variable $nom in /home/zabv3852/public_html/project_rush/App/Controller/infoController.php on line 25
+[07-Jan-2022 10:08:39 UTC] PHP Warning:  Undefined variable $nom in /home/zabv3852/public_html/project_rush/App/Controller/infoController.php on line 25
+[07-Jan-2022 10:08:55 UTC] PHP Warning:  Undefined variable $nom in /home/zabv3852/public_html/project_rush/App/Controller/infoController.php on line 25
+[07-Jan-2022 10:08:55 UTC] PHP Warning:  Undefined variable $nom in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 26
+[07-Jan-2022 10:08:56 UTC] PHP Warning:  Undefined variable $nom in /home/zabv3852/public_html/project_rush/App/Controller/infoController.php on line 25
+[07-Jan-2022 10:08:56 UTC] PHP Warning:  Undefined variable $nom in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 26
+[07-Jan-2022 10:09:27 UTC] PHP Warning:  Undefined variable $nom in /home/zabv3852/public_html/project_rush/App/Controller/infoController.php on line 25
+[07-Jan-2022 10:09:27 UTC] PHP Warning:  Undefined variable $nom in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 26
+[07-Jan-2022 10:09:29 UTC] PHP Warning:  Undefined variable $nom in /home/zabv3852/public_html/project_rush/App/Controller/infoController.php on line 25
+[07-Jan-2022 10:09:29 UTC] PHP Warning:  Undefined variable $nom in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 26
+[07-Jan-2022 10:10:18 UTC] PHP Warning:  Undefined variable $nom in /home/zabv3852/public_html/project_rush/App/Controller/infoController.php on line 25
+[07-Jan-2022 10:10:18 UTC] PHP Warning:  Undefined variable $nom in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 26
+[07-Jan-2022 10:10:36 UTC] PHP Warning:  Undefined variable $nom in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 26
+[07-Jan-2022 10:40:02 UTC] PHP Warning:  preg_match(): No ending delimiter '^' found in /home/zabv3852/public_html/project_rush/App/Controller/infoController.php on line 20
+[07-Jan-2022 10:40:20 UTC] PHP Warning:  preg_match(): No ending delimiter '^' found in /home/zabv3852/public_html/project_rush/App/Controller/infoController.php on line 20
+[07-Jan-2022 10:40:23 UTC] PHP Warning:  preg_match(): No ending delimiter '^' found in /home/zabv3852/public_html/project_rush/App/Controller/infoController.php on line 20
+[07-Jan-2022 10:46:52 UTC] PHP Warning:  Undefined variable $idSearch in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 21
+[07-Jan-2022 10:46:54 UTC] PHP Warning:  Undefined variable $idSearch in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 21
+[07-Jan-2022 10:46:58 UTC] PHP Warning:  Undefined variable $idSearch in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 21
+[07-Jan-2022 11:24:28 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 16
+[07-Jan-2022 11:30:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.id_discord' in 'where clause' in /home/zabv3852/public_html/project_rush/App/Models/Player.php:51
+Stack trace:
+#0 /home/zabv3852/public_html/project_rush/App/Models/Player.php(51): PDOStatement->execute()
+#1 /home/zabv3852/public_html/project_rush/App/Controller/infoController.php(13): App\Models\Player->getInfosPlayerRushById()
+#2 /home/zabv3852/public_html/project_rush/routes/routes.php(8): require_once('/home/zabv3852/...')
+#3 /home/zabv3852/public_html/project_rush/public/index.php(9): require_once('/home/zabv3852/...')
+#4 {main}
+  thrown in /home/zabv3852/public_html/project_rush/App/Models/Player.php on line 51
+[07-Jan-2022 11:30:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.id_discord' in 'where clause' in /home/zabv3852/public_html/project_rush/App/Models/Player.php:51
+Stack trace:
+#0 /home/zabv3852/public_html/project_rush/App/Models/Player.php(51): PDOStatement->execute()
+#1 /home/zabv3852/public_html/project_rush/App/Controller/infoController.php(13): App\Models\Player->getInfosPlayerRushById()
+#2 /home/zabv3852/public_html/project_rush/routes/routes.php(8): require_once('/home/zabv3852/...')
+#3 /home/zabv3852/public_html/project_rush/public/index.php(9): require_once('/home/zabv3852/...')
+#4 {main}
+  thrown in /home/zabv3852/public_html/project_rush/App/Models/Player.php on line 51
+[07-Jan-2022 11:30:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.id_discord' in 'where clause' in /home/zabv3852/public_html/project_rush/App/Models/Player.php:51
+Stack trace:
+#0 /home/zabv3852/public_html/project_rush/App/Models/Player.php(51): PDOStatement->execute()
+#1 /home/zabv3852/public_html/project_rush/App/Controller/infoController.php(13): App\Models\Player->getInfosPlayerRushById()
+#2 /home/zabv3852/public_html/project_rush/routes/routes.php(8): require_once('/home/zabv3852/...')
+#3 /home/zabv3852/public_html/project_rush/public/index.php(9): require_once('/home/zabv3852/...')
+#4 {main}
+  thrown in /home/zabv3852/public_html/project_rush/App/Models/Player.php on line 51
+[07-Jan-2022 11:30:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.id_discord' in 'where clause' in /home/zabv3852/public_html/project_rush/App/Models/Player.php:51
+Stack trace:
+#0 /home/zabv3852/public_html/project_rush/App/Models/Player.php(51): PDOStatement->execute()
+#1 /home/zabv3852/public_html/project_rush/App/Controller/infoController.php(13): App\Models\Player->getInfosPlayerRushById()
+#2 /home/zabv3852/public_html/project_rush/routes/routes.php(8): require_once('/home/zabv3852/...')
+#3 /home/zabv3852/public_html/project_rush/public/index.php(9): require_once('/home/zabv3852/...')
+#4 {main}
+  thrown in /home/zabv3852/public_html/project_rush/App/Models/Player.php on line 51
+[07-Jan-2022 11:30:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_discord' in 'where clause' in /home/zabv3852/public_html/project_rush/App/Models/Player.php:51
+Stack trace:
+#0 /home/zabv3852/public_html/project_rush/App/Models/Player.php(51): PDOStatement->execute()
+#1 /home/zabv3852/public_html/project_rush/App/Controller/infoController.php(13): App\Models\Player->getInfosPlayerRushById()
+#2 /home/zabv3852/public_html/project_rush/routes/routes.php(8): require_once('/home/zabv3852/...')
+#3 /home/zabv3852/public_html/project_rush/public/index.php(9): require_once('/home/zabv3852/...')
+#4 {main}
+  thrown in /home/zabv3852/public_html/project_rush/App/Models/Player.php on line 51
+[07-Jan-2022 11:30:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_discord' in 'where clause' in /home/zabv3852/public_html/project_rush/App/Models/Player.php:51
+Stack trace:
+#0 /home/zabv3852/public_html/project_rush/App/Models/Player.php(51): PDOStatement->execute()
+#1 /home/zabv3852/public_html/project_rush/App/Controller/infoController.php(13): App\Models\Player->getInfosPlayerRushById()
+#2 /home/zabv3852/public_html/project_rush/routes/routes.php(8): require_once('/home/zabv3852/...')
+#3 /home/zabv3852/public_html/project_rush/public/index.php(9): require_once('/home/zabv3852/...')
+#4 {main}
+  thrown in /home/zabv3852/public_html/project_rush/App/Models/Player.php on line 51
+[07-Jan-2022 11:30:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_discord' in 'where clause' in /home/zabv3852/public_html/project_rush/App/Models/Player.php:51
+Stack trace:
+#0 /home/zabv3852/public_html/project_rush/App/Models/Player.php(51): PDOStatement->execute()
+#1 /home/zabv3852/public_html/project_rush/App/Controller/infoController.php(13): App\Models\Player->getInfosPlayerRushById()
+#2 /home/zabv3852/public_html/project_rush/routes/routes.php(8): require_once('/home/zabv3852/...')
+#3 /home/zabv3852/public_html/project_rush/public/index.php(9): require_once('/home/zabv3852/...')
+#4 {main}
+  thrown in /home/zabv3852/public_html/project_rush/App/Models/Player.php on line 51
+[07-Jan-2022 11:31:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'result.rush_id_rush' in 'on clause' in /home/zabv3852/public_html/project_rush/App/Models/Player.php:51
+Stack trace:
+#0 /home/zabv3852/public_html/project_rush/App/Models/Player.php(51): PDOStatement->execute()
+#1 /home/zabv3852/public_html/project_rush/App/Controller/infoController.php(13): App\Models\Player->getInfosPlayerRushById()
+#2 /home/zabv3852/public_html/project_rush/routes/routes.php(8): require_once('/home/zabv3852/...')
+#3 /home/zabv3852/public_html/project_rush/public/index.php(9): require_once('/home/zabv3852/...')
+#4 {main}
+  thrown in /home/zabv3852/public_html/project_rush/App/Models/Player.php on line 51
+[07-Jan-2022 11:46:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'result.rush_id_rush' in 'on clause' in /home/zabv3852/public_html/project_rush/App/Models/Player.php:52
+Stack trace:
+#0 /home/zabv3852/public_html/project_rush/App/Models/Player.php(52): PDOStatement->execute()
+#1 /home/zabv3852/public_html/project_rush/App/Controller/infoController.php(13): App\Models\Player->getInfosPlayerRushById()
+#2 /home/zabv3852/public_html/project_rush/routes/routes.php(8): require_once('/home/zabv3852/...')
+#3 /home/zabv3852/public_html/project_rush/public/index.php(9): require_once('/home/zabv3852/...')
+#4 {main}
+  thrown in /home/zabv3852/public_html/project_rush/App/Models/Player.php on line 52
+[07-Jan-2022 11:50:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ru.name' in 'field list' in /home/zabv3852/public_html/project_rush/App/Models/Player.php:52
+Stack trace:
+#0 /home/zabv3852/public_html/project_rush/App/Models/Player.php(52): PDOStatement->execute()
+#1 /home/zabv3852/public_html/project_rush/App/Controller/infoController.php(13): App\Models\Player->getInfosPlayerRushById()
+#2 /home/zabv3852/public_html/project_rush/routes/routes.php(8): require_once('/home/zabv3852/...')
+#3 /home/zabv3852/public_html/project_rush/public/index.php(9): require_once('/home/zabv3852/...')
+#4 {main}
+  thrown in /home/zabv3852/public_html/project_rush/App/Models/Player.php on line 52
+[07-Jan-2022 11:50:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ru.name' in 'field list' in /home/zabv3852/public_html/project_rush/App/Models/Player.php:52
+Stack trace:
+#0 /home/zabv3852/public_html/project_rush/App/Models/Player.php(52): PDOStatement->execute()
+#1 /home/zabv3852/public_html/project_rush/App/Controller/infoController.php(13): App\Models\Player->getInfosPlayerRushById()
+#2 /home/zabv3852/public_html/project_rush/routes/routes.php(8): require_once('/home/zabv3852/...')
+#3 /home/zabv3852/public_html/project_rush/public/index.php(9): require_once('/home/zabv3852/...')
+#4 {main}
+  thrown in /home/zabv3852/public_html/project_rush/App/Models/Player.php on line 52
+[07-Jan-2022 11:51:12 UTC] PHP Warning:  Undefined variable $infosPlayerRush in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 15
+[07-Jan-2022 11:53:52 UTC] PHP Warning:  Undefined variable $infosPlayerRush in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 15
+[07-Jan-2022 11:53:54 UTC] PHP Warning:  Undefined variable $infosPlayerRush in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 15
+[07-Jan-2022 11:53:59 UTC] PHP Warning:  Undefined variable $infosPlayerRush in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 15
+[07-Jan-2022 11:54:56 UTC] PHP Warning:  Undefined variable $infosPlayerRush in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 15
+[07-Jan-2022 11:55:00 UTC] PHP Warning:  Undefined variable $infosPlayerRush in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 15
+[07-Jan-2022 11:55:06 UTC] PHP Warning:  Undefined variable $infosPlayerRush in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 15
+[07-Jan-2022 11:56:45 UTC] PHP Warning:  Undefined variable $infosPlayerRush in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 15
+[07-Jan-2022 11:58:24 UTC] PHP Warning:  Array to string conversion in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 16
+[07-Jan-2022 11:58:24 UTC] PHP Warning:  Array to string conversion in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 16
+[07-Jan-2022 11:58:24 UTC] PHP Warning:  Array to string conversion in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 16
+[07-Jan-2022 11:58:24 UTC] PHP Warning:  Array to string conversion in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 16
+[07-Jan-2022 11:58:24 UTC] PHP Warning:  Array to string conversion in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 16
+[07-Jan-2022 11:58:24 UTC] PHP Warning:  Array to string conversion in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 16
+[07-Jan-2022 11:58:24 UTC] PHP Warning:  Array to string conversion in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 16
+[07-Jan-2022 11:58:24 UTC] PHP Warning:  Array to string conversion in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 16
+[07-Jan-2022 12:00:32 UTC] PHP Warning:  Array to string conversion in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 16
+[07-Jan-2022 12:00:32 UTC] PHP Warning:  Array to string conversion in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 16
+[07-Jan-2022 12:00:32 UTC] PHP Warning:  Array to string conversion in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 16
+[07-Jan-2022 12:00:32 UTC] PHP Warning:  Array to string conversion in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 16
+[07-Jan-2022 12:00:32 UTC] PHP Warning:  Array to string conversion in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 16
+[07-Jan-2022 12:00:32 UTC] PHP Warning:  Array to string conversion in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 16
+[07-Jan-2022 12:00:32 UTC] PHP Warning:  Array to string conversion in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 16
+[07-Jan-2022 12:00:32 UTC] PHP Warning:  Array to string conversion in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 16
+[07-Jan-2022 12:03:09 UTC] PHP Parse error:  syntax error, unexpected variable "$value", expecting "," or ";" in /home/zabv3852/public_html/project_rush/views/page/info.phtml on line 16
